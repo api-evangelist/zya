@@ -1,4 +1,16 @@
 aid: zya
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zya.png
 name: Zya
 description: Zya is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -23,3 +35,11 @@ maintainers:
 common:
 - type: Website
   url: https://zyamusic.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'zyamusic.com is a parked domain (parklogic.com nameservers), serves empty
+    replies on 80/443, no API/docs/well-known surface; company defunct. No artifacts
+    to enrich.'
